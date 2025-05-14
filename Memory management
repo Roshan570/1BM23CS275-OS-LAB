@@ -115,3 +115,29 @@ int main() {
 
     return 0;
 }
+output:
+Enter number of memory blocks: 5
+Enter sizes of 5 memory blocks:
+100 500 200 300 600
+Enter number of processes: 4
+Enter sizes of 4 processes:
+212 417 112 426
+
+First Fit Allocation:
+Process 1 -> Block 2
+Process 2 -> Block 5
+Process 3 -> Block 2
+Process 4 -> Not Allocated
+
+Best Fit Allocation:
+Process 1 -> Block 4
+Process 2 -> Block 2
+Process 3 -> Block 3
+Process 4 -> Block 5
+
+Worst Fit Allocation:
+Process 1 -> Block 5
+Process 2 -> Block 2
+Process 3 -> Block 5
+Process 4 -> Not Allocated
+
